@@ -1,6 +1,6 @@
-## Darwin Quantitative Trading System
+## Darwin Algorithmic Trading System (DATS)
 
-The goal of DarwinSys is to provide a fully automatic trading platform for professional investors, and small asset manager to manage, execute and monitor their trading activities.
+The goal of DATS is to provide a fully automatic trading platform for professional investors, and small asset manager to manage, execute and monitor their trading activities.
 
 ### Trading Features
 1. Integrating various trading APIs and connecting multiple brokage accounts:
@@ -24,7 +24,7 @@ The front-end of DarwinSys is based on HTML5/CSS/Javascript, which provide users
 2. Mobile-based trading monitor tools
 
 ### Infrastructure Features
-DarwinSys is designed to deploy in a distributed environment with robustness and transparency as the core requirement. 
+DATS is designed to deploy in a distributed environment with robustness and transparency as the core requirement. 
 1. Individual modules including strategy running, front-end web app, datafeed recording and management, trading API and brokage account management, database system (storing historical data and meta data) are all indepedent module, which can be running in different process or host
 2. Through centralized caching system and async messaging system to monitor the status of each module and communicate inbetween. 
 With such distributed system design, we woud like to achieve:
