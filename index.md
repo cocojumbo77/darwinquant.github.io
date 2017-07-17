@@ -1,4 +1,18 @@
-## Welcome to GitHub Pages
+## Darwin Quantitative Trading System
+
+The goal of DarwinSys is to provide a fully automatic trading platform for professional investors with the following major features:
+
+1. Integrating various trading APIs and connecting multiple brokage accounts:
+    - Chinese Future Market (Through CTP)
+    - Cryptocurrency (BTC, and etc)
+    - International Future Market (Through Interactive Broker)
+2. Advanced strategy backtest, live-simulation and trading features: 
+    - including multi-legs strategy, pair/basket-trading, option strategies and etc. 
+    - support in-sample/out-of-sample test, walk-forward tests 
+    - paramset optimization, sensitivity tests, random entry/exit tests and etc
+3. Portfolio, Asset Allocation and Risk Manager
+
+
 
 You can use the [editor on GitHub](https://github.com/cocojumbo77/darwinquant.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
