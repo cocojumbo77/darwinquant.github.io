@@ -1,7 +1,8 @@
 ## Darwin Quantitative Trading System
 
-The goal of DarwinSys is to provide a fully automatic trading platform for professional investors with the following major features:
+The goal of DarwinSys is to provide a fully automatic trading platform for professional investors, and small asset manager to manage, execute and monitor their trading activities.
 
+### Trading Features
 1. Integrating various trading APIs and connecting multiple brokage accounts:
     - Chinese Future Market (Through CTP)
     - Cryptocurrency (BTC, and etc)
@@ -9,43 +10,28 @@ The goal of DarwinSys is to provide a fully automatic trading platform for profe
 2. Advanced strategy backtest, live-simulation and trading features: 
     - including multi-legs strategy, pair/basket-trading, option strategies and etc. 
     - support in-sample/out-of-sample test, walk-forward tests 
-    - paramset optimization, sensitivity tests, random entry/exit tests and etc
-3. Portfolio, Asset Allocation and Risk Manager
+    - paramset optimization, sensitivity tests, random entry/exit tests and etc, with AI features
+3. Portfolio, Asset Allocation and Risk Management:
+    - strategy portfolio backtest and live-trading
+    - strategy correlation and position sizing analysis
+    - risk management features
+
+### Front-end features
+The front-end of DarwinSys is based on HTML5/CSS/Javascript, which provide users easy-access features:
+1. Desktop-based trading dashboard and workbench
+    - Strategy backtests, simulation and trading
+    - Strategy performance analysis and monitoring tools  
+2. Mobile-based trading monitor tools
+
+### Infrastructure Features
+DarwinSys is designed to deploy in a distributed environment with robustness and transparency as the core requirement. 
+1. Individual modules including strategy running, front-end web app, datafeed recording and management, trading API and brokage account management, database system (storing historical data and meta data) are all indepedent module, which can be running in different process or host
+2. Through centralized caching system and async messaging system to monitor the status of each module and communicate inbetween. 
+With such distributed system design, we woud like to achieve:
+- Robust and extendable system. Trader can easily deploy strategies by adding runnng instances/hosts for the strategies, without affecting the performance of other modules
+- Safety: Trading enviornment including strategy running process, account information and related trading/order logs can be separated from the front-end web-app. It protects the mot valuable intellectual property of the trader - the strategy
+
+## Contact
+If you are interseted in our project, please contact us 
 
 
-
-You can use the [editor on GitHub](https://github.com/cocojumbo77/darwinquant.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cocojumbo77/darwinquant.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
